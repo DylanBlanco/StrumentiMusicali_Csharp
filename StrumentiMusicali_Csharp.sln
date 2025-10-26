@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36616.10 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrumentiMusicali_Csharp", "StrumentiMusicali_Csharp\StrumentiMusicali_Csharp.csproj", "{D583E83B-A513-4631-8450-4F4FC770013C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaClassi", "LibreriaClassi\LibreriaClassi.csproj", "{53694CB4-9C74-44BD-9E40-28E4851B03CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D583E83B-A513-4631-8450-4F4FC770013C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D583E83B-A513-4631-8450-4F4FC770013C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D583E83B-A513-4631-8450-4F4FC770013C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53694CB4-9C74-44BD-9E40-28E4851B03CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53694CB4-9C74-44BD-9E40-28E4851B03CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53694CB4-9C74-44BD-9E40-28E4851B03CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53694CB4-9C74-44BD-9E40-28E4851B03CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
