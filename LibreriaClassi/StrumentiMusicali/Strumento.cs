@@ -19,12 +19,12 @@ namespace LibreriaClassi.StrumentiMusicali
 
         public string Suona()
         {
-            return $"{Nome} sta suonando.";
+            return $"{Nome} sta suonando";
         }
 
         public string TipoStrumento()
         {
-            return $"{Nome} è un tipo di strumento: {Tipo}.";
+            return $"{Nome} è un tipo di strumento: {Tipo}";
         }
     }
 }
