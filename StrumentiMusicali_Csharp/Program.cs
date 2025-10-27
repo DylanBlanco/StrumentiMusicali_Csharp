@@ -8,6 +8,11 @@ namespace StrumentiMusicali_Csharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            // Istanza della classe Strumento
+            var strumento = new LibreriaClassi.StrumentiMusicali.Strumento("Chitarra", "Corda");
+            Console.WriteLine(strumento.Suona());
+            Console.WriteLine(strumento.TipoStrumento());
         }
     }
 }
