@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaClassi.StrumentiMusicali
 {
-    internal class Chitarra
+    public class Chitarra
     {
         public string TipoChitarra { get; set; }
 

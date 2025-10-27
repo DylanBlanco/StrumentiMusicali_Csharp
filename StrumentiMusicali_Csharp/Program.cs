@@ -7,12 +7,13 @@ namespace StrumentiMusicali_Csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            // Istanza della classe Strumento
-            var strumento = new LibreriaClassi.StrumentiMusicali.Strumento("Chitarra", "Corda");
-            Console.WriteLine(strumento.Suona());
-            Console.WriteLine(strumento.TipoStrumento());
+            // Istanza della classe Chitarra e utilizzo del metodo
+            string[] tipoChitarra = { "Acustica", "Elettrica", "Classica" };
+            for (int i = 0; i < tipoChitarra.Length; i++)
+            {
+                var strumento = new LibreriaClassi.StrumentiMusicali.Chitarra(tipoChitarra[i]);
+                Console.WriteLine(strumento.Suona());
+            }
         }
     }
 }
