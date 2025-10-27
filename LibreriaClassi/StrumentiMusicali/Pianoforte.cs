@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace LibreriaClassi.StrumentiMusicali
 {
-    internal class Pianoforte
+    public class Pianoforte
     {
+        public string TiopoPianoforte { get; set; }
+
+        public Pianoforte(string tipo)
+        {
+            TiopoPianoforte = tipo;
+        }
+
     }
 }
