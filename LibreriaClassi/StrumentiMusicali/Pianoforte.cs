@@ -15,5 +15,9 @@ namespace LibreriaClassi.StrumentiMusicali
             TiopoPianoforte = tipo;
         }
 
+        public string Suona()
+        {
+            return $"Il pianoforte {TiopoPianoforte} sta suonando.";
+        }
     }
 }
