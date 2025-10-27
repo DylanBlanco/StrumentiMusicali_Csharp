@@ -8,16 +8,16 @@ namespace LibreriaClassi.StrumentiMusicali
 {
     public class Pianoforte
     {
-        public string TiopoPianoforte { get; set; }
+        public string TipoPianoforte { get; set; }
 
         public Pianoforte(string tipo)
         {
-            TiopoPianoforte = tipo;
+            TipoPianoforte = tipo;
         }
 
         public string Suona()
         {
-            return $"Il pianoforte {TiopoPianoforte} sta suonando.";
+            return $"Il pianoforte {TipoPianoforte} sta suonando.";
         }
     }
 }

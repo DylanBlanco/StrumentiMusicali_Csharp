@@ -14,6 +14,15 @@ namespace StrumentiMusicali_Csharp
                 var strumento = new LibreriaClassi.StrumentiMusicali.Chitarra(tipoChitarra[i]);
                 Console.WriteLine(strumento.Suona());
             }
+
+            // Istanza della classe Pianoforte e utilizzo del metodo
+            string[] tipoPianoforte = { "Digitale", "Acustico", "Ibrido" };
+            for (int i=0; i<tipoPianoforte.Length; i++)
+            {
+                var pianoforte = new LibreriaClassi.StrumentiMusicali.Pianoforte(tipoPianoforte[i]);
+                var suonoPianoforte = pianoforte.Suona();
+                Console.WriteLine(suonoPianoforte);
+            }
         }
     }
 }
