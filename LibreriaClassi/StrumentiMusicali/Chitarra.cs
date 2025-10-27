@@ -8,5 +8,16 @@ namespace LibreriaClassi.StrumentiMusicali
 {
     internal class Chitarra
     {
+        public string TipoChitarra { get; set; }
+
+        public Chitarra(string tipo)
+        {
+            TipoChitarra = tipo;
+        }
+
+        public string Suona()
+        {
+            return $"La chitarra {TipoChitarra} sta suonando.";
+        }
     }
 }
