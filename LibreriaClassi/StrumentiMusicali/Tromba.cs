@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace LibreriaClassi.StrumentiMusicali
 {
-    public class Chitarra
+    public class Tromba
     {
         public string Suono { get; set; }
 
-        public Chitarra() { }
+        public Tromba() { }
 
-        public Chitarra(string s)
+        public Tromba(string s)
         {
             Suono = s;
         }
