@@ -1,4 +1,5 @@
 ﻿
+using LibreriaClassi.StrumentiMusicali;
 using System;
 
 namespace StrumentiMusicali_Csharp
@@ -7,22 +8,17 @@ namespace StrumentiMusicali_Csharp
     {
         static void Main(string[] args)
         {
-            // Istanza della classe Chitarra e utilizzo del metodo
-            string[] tipoChitarra = { "Acustica", "Elettrica", "Classica" };
-            for (int i = 0; i < tipoChitarra.Length; i++)
-            {
-                var strumento = new LibreriaClassi.StrumentiMusicali.Chitarra(tipoChitarra[i]);
-                Console.WriteLine(strumento.Suona());
-            }
+            // Creazione degli oggetti per ogni strumento musicale
+            var chitarra = new Chitarra("Duum-duum");
+            var pianoforte = new Pianoforte("Plin-plin");
+            var tamburo = new Tamburo("Bum-Bum-Bum");
+            var tromba = new Tromba("Trum-Trum");
 
-            // Istanza della classe Pianoforte e utilizzo del metodo
-            string[] tipoPianoforte = { "Digitale", "Acustico", "Ibrido" };
-            for (int i=0; i<tipoPianoforte.Length; i++)
-            {
-                var pianoforte = new LibreriaClassi.StrumentiMusicali.Pianoforte(tipoPianoforte[i]);
-                var suonoPianoforte = pianoforte.Suona();
-                Console.WriteLine(suonoPianoforte);
-            }
+            // Stampa dei suoni prodotti da ogni strumento
+            Console.WriteLine("La chitarra fa: " + chitarra.Suono);
+            Console.WriteLine("Il pianoforte fa: " + pianoforte.Suono);
+            Console.WriteLine("Il tamburo fa: " + tamburo.Suono);
+            Console.WriteLine("La tromba fa: " + tromba.Suono);
         }
     }
 }
