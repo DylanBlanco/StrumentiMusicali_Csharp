@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LibreriaClassi.StrumentiMusicali
+{
+    public enum TipologiaEnum
+    {
+        Corda,
+        Percussione,
+        Fiato
+    }
+}
