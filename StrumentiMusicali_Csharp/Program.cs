@@ -19,6 +19,15 @@ namespace StrumentiMusicali_Csharp
             Console.WriteLine("Il pianoforte fa: " + pianoforte.Suono);
             Console.WriteLine("Il tamburo fa: " + tamburo.Suono);
             Console.WriteLine("La tromba fa: " + tromba.Suono);
+
+            // Creazione di un'orchestra che include tutti gli strumenti
+            Console.WriteLine("------------------------------------------------------------");
+            var orchestra = new Orchestra();
+            Console.WriteLine("\nL'orchestra suona:");
+            Console.WriteLine("Chitarra: " + orchestra.chitarra.Suono);
+            Console.WriteLine("Pianoforte: " + orchestra.pianoforte.Suono);
+            Console.WriteLine("Tamburo: " + orchestra.tamburo.Suono);
+            Console.WriteLine("Tromba: " + orchestra.tromba.Suono);
         }
     }
 }

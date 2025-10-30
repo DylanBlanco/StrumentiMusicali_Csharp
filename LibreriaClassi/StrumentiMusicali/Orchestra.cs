@@ -8,5 +8,13 @@ namespace LibreriaClassi.StrumentiMusicali
 {
     public class Orchestra
     {
+        public string Suona()
+        {
+            foreach(var item in this)
+            {
+                suono = item.Suono() + "r\n";
+            }
+            return suono;
+        }
     }
 }
