@@ -8,5 +8,6 @@ namespace LibreriaClassi.StrumentiMusicali
 {
     public interface IStrumentoMusicale
     {
+        string Suona();
     }
 }

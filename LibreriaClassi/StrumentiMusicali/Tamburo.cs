@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace LibreriaClassi.StrumentiMusicali
 {
-    public class Tamburo
+    public class Tamburo : StrumentoMusicale
     {
-        public string Suono { get; set; }
+        //public string Suono { get; set; }
 
         public Tamburo() { }
 
         public Tamburo(string s)
         {
             Suono = s;
+        }
+
+        public override string Suona()
+        {
+            return Suono;
         }
     }
 }

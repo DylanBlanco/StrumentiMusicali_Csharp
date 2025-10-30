@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace LibreriaClassi.StrumentiMusicali
 {
-    public class Pianoforte
+    public class Pianoforte : StrumentoMusicale
     {
-        public string Suono { get; set; }
+        //public string Suono { get; set; }
 
         public Pianoforte() { }
 
         public Pianoforte(string s)
         {
             Suono = s;
+        }
+
+        public override string Suona()
+        {
+            return Suono;
         }
     }
 }

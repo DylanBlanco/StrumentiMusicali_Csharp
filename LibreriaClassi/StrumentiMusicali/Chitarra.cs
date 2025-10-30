@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace LibreriaClassi.StrumentiMusicali
 {
-    public class Chitarra
+    public class Chitarra : StrumentoMusicale
     {
-        public string Suono { get; set; }
+        //public string Suono { get; set; }
 
         public Chitarra() { }
 
         public Chitarra(string s)
         {
             Suono = s;
+        }
+
+        public override string Suona()
+        {
+            return Suono;
         }
     }
 }
